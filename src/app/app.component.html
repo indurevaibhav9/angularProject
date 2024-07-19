@@ -1,0 +1,22 @@
+<div class="flex flex-col align-middle justify-center items-center">
+<nav class="w-full"> 
+   <h1>Angular Routing</h1>
+  <ul>
+    <li><a class="buttonPadding" routerLink="home">Home</a></li>
+    <li><a class="buttonPadding" routerLink="/about">About</a></li>
+    <li><a class="buttonPadding" routerLink="/contact">Contact</a></li>
+    <li><a class="buttonPadding" routerLink="/products">Products</a></li>
+  </ul>
+
+  <p style="color: white; display: flex; align-items: center; justify-self: center; margin-left: 51px; font-size: larger;"><span>to explore nested routing click</span> <a routerLink="/parent" > here</a></p>
+</nav>
+
+<div class="flex flex-col align-middle justify-center items-center">
+  <router-outlet class="text-3xl" id="outlet"></router-outlet>
+</div>
+
+
+<p class="text-customColor font-serif text-2xl" > using custom color</p>
+
+
+</div>
