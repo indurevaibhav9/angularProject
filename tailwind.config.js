@@ -15,6 +15,9 @@ module.exports = {
       },
       fontSize:{
         big: '41px'
+      },
+      padding:{
+         'myCustomPadding' : '2rem' 
       }
     },
   },
