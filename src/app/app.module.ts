@@ -10,6 +10,7 @@ import { ProductsComponent } from './products/products.component';
 import { ParentComponent } from './parent/parent.component';
 import { Child1Component } from './child1/child1.component';
 import { Child2Component } from './child2/child2.component';
+import { Feature2ModuleModule } from './feature2-module/feature2-module.module';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { Child2Component } from './child2/child2.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    Feature2ModuleModule
   ],
   providers: [],
   bootstrap: [AppComponent]

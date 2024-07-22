@@ -1,6 +1,6 @@
 <div class="flex flex-col align-middle justify-center items-center">
   <nav class="w-full">
-    <h1>Angular Routing</h1>
+    <h1 class="text-gray-50">Angular Routing</h1>
     <ul>
       <li><a class="buttonPadding" routerLink="home">Home</a></li>
       <li><a class="buttonPadding" routerLink="/about">About</a></li>
@@ -13,16 +13,26 @@
       <span>to explore nested routing click</span> <a routerLink="/parent"> here</a></p>
   </nav>
 
-  <div class="flex flex-col align-middle justify-center items-center">
+  <div class="flex flex-col align-middle justify-center items-center p-10 m-11 bg-yellow-200">
+    <h1 class="text-2xl m-5">Demonstration of routing</h1>
     <router-outlet class="text-3xl" id="outlet"></router-outlet>
   </div>
 
 
-  <div>
+  <div class="bg-green-200 m-11 p-5">
     <h1>Use of customized css in  tailwind config.js file </h1>
     <p class="text-customColor font-serif text-2xl"> using custom color</p>
     <p class="p-myCustomPadding bg-red-800 text-white"> my custom padding applyed here </p>
   </div>
-   
 
+  <hr>
+
+  <div class="bg-orange-300 p-8 m-10">
+    <h1 class="text-2xl text-emerald-950"> Task of Last session</h1>
+  <h1 class="text-2xl text-emerald-950"> using component1 of feature1 in component2 of feature2 </h1>
+   <app-component2></app-component2>  
+   <!-- so  flow is from  module1 is imported in module2 then module2 is imported in app module -->
+    <!-- once we import a module then we can use the exported component of that module -->
+   
+  </div>
 </div>
